@@ -2,7 +2,7 @@
 .container {
     position: relative;
     max-width: 1900px;
-    padding: 1px;
+    padding: 5px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@
     display: block;
     color: #fff;
     text-decoration: none;
-    padding: 10px 25px;
+    padding: 10px 40px;
 }
 
 .menu-item :hover {
@@ -116,3 +116,27 @@
     font-family: Arial, Helvetica, sans-serif;
     line-height: 75px;
 }
+
+aside{
+    background-color: rgba(69, 151, 210, 0.432);
+    padding: 30px;
+    grid-column: 4/5;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;   
+    
+}
+
+article{
+    padding: 30px;
+    background-color: #fff;
+    grid-column: 1/4;
+}
+footer{
+    background-color:rgba(69, 151, 210, 0.432);
+    color: #fff;
+    padding: 10px;
+}
+
+
